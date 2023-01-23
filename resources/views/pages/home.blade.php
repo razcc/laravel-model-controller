@@ -8,5 +8,6 @@
 
     @foreach ($movies as $elem)
     <h2>{{$elem['title']}} </h2>
+    test push
     @endforeach
 @endsection
